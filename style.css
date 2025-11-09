@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 75px;
+    margin-left: 5px;
+}
+.logo{
+    background-image: url("./Logo1.jpeg"); 
+    height: 75px;
+    width: 75px;
+    background-size: cover;
+}
+
+.heading{
+    font-family: "Monoton", sans-serif;
+    font-size: 30px;
+    color: rgb(133, 132, 132);
+    padding-left: 20px;
+
+}
+
+.main-img{
+    display: flex;
+    background-image: url("./main-img.jpg");
+    height: 500px;
+    width: 100%;
+    border-top: 7.5px solid rgb(173, 137, 123);
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.about h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.about .para{
+    font-family: "Poiret One", sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.btn-reservations{
+    text-align: center;
+}
+
+.btn-reservations button{
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #5B5252;
+    border: none;
+    color: beige;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+button:hover {
+      background-color: #3f3a38;
+      cursor: pointer;;
+    }
+
+.menu{
+    background-color: #F5F1EA;
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.menu h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.menu .para{
+    font-family: "Poiret One", sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.menu .menu-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    width: fit-content;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.menu-grid img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+}
+
+.menu-items a{
+    color: #131313;
+    font-family: cursive;
+    font-size: larger;
+}
+
+footer{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background-color: #f9f6f1;
+      border-top: 1px solid #c8a75b;
+      border-bottom: 1px solid #c8a75b;
+      text-align: center;
+      padding: 40px 0;
+      font-family: 'Arial', sans-serif;
+}
+
+footer div{
+      padding: 20px;
+      border-right: 1px solid #c8a75b;
+}
+
+footer div:last-child {
+      border-right: none;
+}
+
+footer i{
+      font-size: 24px;
+      color: #c8a75b;
+      margin-bottom: 15px;
+}
+
+footer h3{
+      font-weight: 700;
+      margin-bottom: 10px;
+}
+
+footer p{
+      color: #333;
+      line-height: 1.5;
+      font-size: 18px;
+      margin: 0px 50px 0px 50px;
+}
+
